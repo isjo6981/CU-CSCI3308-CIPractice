@@ -1,8 +1,7 @@
 /*
  * geometry_test.c
- * Andy Sayler
+ * Matthew Skogen and Isaiah Jones
  * CSCI 3308
- * Summer 2014
  *
  * This file containsunit tests for geometry.c
  *
