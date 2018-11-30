@@ -1,0 +1,18 @@
+#Matthew Skogen and Isaiah Jones
+#CU Boulder 2018
+
+language: c
+
+script: 
+  - make dep
+  - make test
+
+install: sudo apt-get install check
+
+addons:
+  apt:
+    sources:
+      - george-edison55-precise-backports
+    packages:
+      - cmake-data
+      - cmake

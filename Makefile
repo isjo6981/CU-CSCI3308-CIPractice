@@ -1,6 +1,5 @@
-# Andy Sayler
+# Matthew Skogen and Isaiah Jones
 # CI Practice
-# Summer 2014
 
 CC = gcc
 CFLAGS = -c -g -Wall -Wextra
@@ -29,3 +28,7 @@ clean:
 	$(RM) *.o
 	$(RM) geometry_test
 	$(RM) *~
+
+test: geometry_test 
+	./geometry_test
+
